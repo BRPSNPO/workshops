@@ -1,4 +1,4 @@
-# immersion-days
+# NPO Workshops - Imersão de conteúdos práticos.
 
 # Worskshop sobre CORE Services AWS
 
