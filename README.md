@@ -1,4 +1,4 @@
-# NPO Workshops - Imersão de conteúdos práticos.
+# NPO Workshops - Imersão de Conteúdos Práticos.
 
 Repositório para agregar conteúdos em PT-BR para os clientes AWS do Setor Público.
 
@@ -9,6 +9,9 @@ Olá, este é um workshop individualizado, desenvolvido para explorar os Serviç
 Neste workshop, você hospedará um site estático e criará uma arquitetura de aplicativos de duas camadas, cobrindo os principais serviços e as práticas recomendadas para computação, rede, armazenamento e bancos de dados.
 
 Veja o diagrama abaixo para uma descrição da arquitetura completa.
+
+![diagram-architecture.png](diagram-architecture.png)
+
 
 # Workshop Analytics
 
