@@ -1,5 +1,7 @@
 # NPO Workshops - Imersão de conteúdos práticos.
 
+Repositório para agregar conteúdos em PT-BR para os clientes AWS do Setor Público.
+
 # Worskshop sobre CORE Services AWS
 
 Olá, este é um workshop individualizado, desenvolvido para explorar os Serviços Principais da AWS.
