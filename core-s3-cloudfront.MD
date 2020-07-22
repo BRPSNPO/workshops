@@ -126,6 +126,10 @@ site estático do `aws s3 cp / s3: // <seudominio> -website / --recursive --excl
 
 1.4 Clique em Create distribution.
 
+# Bom trabalho! Você implantou um site estático !!
+
+Para testar o ambiente, copie o Domain name do Cloud Front e coloque no Browser com o caminho /index.html.
+
 
 
 
