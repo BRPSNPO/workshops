@@ -13,6 +13,7 @@ Veja o diagrama abaixo para uma descrição da arquitetura completa.
 ![diagram-architecture.png](diagram-architecture.png)
 
 
+Para acompanhar o Workshop basta clicar [AQUI](https://github.com/BRPSNPO/workshops/blob/master/core-s3-cloudfront.MD).
 # Workshop Analytics
 
 TBD
