@@ -9,10 +9,13 @@ Você tem controle total sobre o seu ambiente de rede virtual, incluindo a sele�
 2. Dê um nome, um CIDR (172.16.0.0/16) para sua VPC.
 3. Clique em CRIAR.
 
-## Subnets
+Agora, na sequencia criaremos: 
 
-Na opção de Subnets do menu lateral, clique em CRIAR SUBNET.
+- Subnets
+- IGW
+- NatGW
 
-1. De um nome pra sua subnet, escolha a VPC que criamos no step anterior e escolha uma zona de Disponibilidade. 
-2. Insira um CIDR Block para sua subnet dentro do range escolhido 
+# Começando com AWS EC2.
+
+Iremos criar uma AWS EC2, siga os procedimentos do link: http://aws-core-services.ws.kabits.com/getting-started-with-linux-on-amazon-ec2/
 
