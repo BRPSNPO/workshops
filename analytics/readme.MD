@@ -44,7 +44,7 @@ $ git clone https://github.com/BRPSNPO/workshops.git
 
 Automaticamente, na barra de arquivos ao lado irá aparecer os arquivos. 
 
-- Entre na pasta workshops/notebooks e dê 2 cliques no arquivo analytics-labs.ipynb.
+- Entre na pasta workshops/analytics e dê 2 cliques no arquivo workshop-analytics.ipynb.
 
 Vamos executar as células do noteboook clicando em:
 
