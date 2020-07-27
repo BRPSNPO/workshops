@@ -26,7 +26,11 @@ Então vamos iniciar o processo de criação de uma instância de Sagemaker Note
 
 - Na aba de Notebook Instance, o único valor a ser alterado é o Notebook Instance Name, que no caso utilizaremos Workshop-Analytics. Todos os outros valores pode deixar o default. Clique em Create notebook instance.
 
+![sagemakername](images/sagemakername.png)
+
 - Alguns minutos após a criação, o status será `InService`.  Clique em Open `JupyterLab`.
+
+![sagemakername](images/sagemaker1.png)
 
 - Abra um terminal, clicando em: File > New > Terminal.
 
@@ -37,6 +41,7 @@ $ cd sample-notebooks
 $ cd SageMaker/
 $ git clone https://github.com/BRPSNPO/workshops.git
 ````
+
 Automaticamente, na barra de arquivos ao lado irá aparecer os arquivos. 
 
 - Entre na pasta workshops/notebooks e dê 2 cliques no arquivo analytics-labs.ipynb.
@@ -45,7 +50,9 @@ Vamos executar as células do noteboook clicando em:
 
 Run > Run All Cells.
 
-As células são auto-explicativas.
+![runall](images/runall.png)
+
+As células estão comentadas para melhor entendimento do que está sendo feito.
 
 
 ## S3
@@ -56,7 +63,9 @@ Neste workshop é importante aprendermos como abrir o serviço do S3 e entender 
 
 - Abra uma nova aba do console AWS e pesquise por S3.
 
-O Bucket analytics-* foi criado quando executamos todas as células do Notebook.
+O Bucket lab-* foi criado quando executamos todas as células do Notebook.
+
+![s3](images/s3.png)
 
 ## Glue
 
@@ -69,6 +78,9 @@ Database:
 - Clique em Databases > ADD Database;
 - Dê um nome para o database: movielens;
 - Clique em Create.
+- Você deve ver uma tela como a abaixo:
+
+![](images/gluedatabase.png)
 
 Crawler:
 - Clique em Crawler > ADD Crawler;
@@ -76,14 +88,18 @@ Crawler:
 - Deixe selecionado Data Stores e selecione NEXT;
 - Clique na pastinha para selecionar o Bucket que criamos, e selecione a pasta: data > analytics;
 - Clique em Next > No > Next > Create Crawler;
-
-O crawler leverá alguns minutos para processar.
+O crawler leverá alguns segundos para ser criado.
 
 Quando o `status` mudar para Ready, selecione o Crawler e clique em `RUN Crawler`.
+
+![](images/gluecrawler.png)
+
 
 Retorne a aba de databases e clique em Tables.
 
 Você verá as tabelas criadas de acordo com o arquivo que fizemos upload no S3 através do notebook.
+
+![](images/gluetables.png)
 
 ## Athena
 
@@ -112,6 +128,8 @@ E temos os filmes ordenados por melhor filme da história de acordo com este dat
 
 `1º lugar: Shawshank Redemption, The (1994)`
 
+![](images/athena.png)
+
 ## Quicksight
 
 O Quicksight é o serviço de Business Analytics da AWS. Com ele é possível criar dashboards bem visuais e em tempo real do que está acontecendo com seus dados.
@@ -130,3 +148,7 @@ Iremos criar um dashboard de exemplo:
 - Você deve conseguir ver a tela abaixo:
 
 ![quicksight](images/quicksight.png)
+
+- As configurações são:
+
+![quick](images/quickconfig.png)
