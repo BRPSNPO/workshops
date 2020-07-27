@@ -26,7 +26,7 @@ Arquitetura do Workshop:
 ![](analytics/images/arquitetura-analytics.png)
 
 
-[Analytics - Parte 1 - S3, Glue, Athena e Quicksight](analytics/analytics.MD).
+[Analytics - Parte 1 - S3, Glue, Athena e Quicksight](analytics/readme.MD).
 
 # Workshop Containers
 
