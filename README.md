@@ -19,7 +19,7 @@ Veja o diagrama abaixo para uma descrição da arquitetura completa.
 
 # Workshop Analytics
 
-O Workshop de Analytics irá demonstrar a criação de um Datalake na AWS passando pelos processos de extração, transformcação e visualização com os principais serviços de Analytics da AWS.
+O Workshop de Analytics irá demonstrar a criação de um Datalake na AWS passando pelos processos de extração, transformação e visualização com os principais serviços de Analytics da AWS.
 
 Arquitetura do Workshop:
 
@@ -39,7 +39,4 @@ TBD
 
 ## Conta da AWS necessária
 Para concluir esses workshops, você precisará de uma conta ativa da AWS válida com permissões de administrador. 
-
-Você deve concluir os seguintes módulos na região Leste dos EUA (Virgínia do Norte) em ordem antes de prosseguir para a próxima.
-
-Iremos utilizar a plataforma: [Event Engine](https://dashboard.eventengine.run/login) para isto. O arquiteto que está ministrando o Workshop deve lhe passar algum HASH.
+Se estiver participando de um workshop guiado, irá utilizar plataforma: [Event Engine](https://dashboard.eventengine.run/login) para isto. O arquiteto que está ministrando o Workshop deve lhe passar algum HASH.
