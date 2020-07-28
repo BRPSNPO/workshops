@@ -155,4 +155,6 @@ Iremos criar um dashboard de exemplo:
 
 # Parabéns, você concluiu o Workshop de Analytics!! 
 
-### Special thanks to [@angelocarvalho](https://github.com/angelocarvalho) for the Labs! 
+# Contribuições
+
+- Agradecimento especial para o [@angelocarvalho](https://github.com/angelocarvalho) pelos Labs! 
