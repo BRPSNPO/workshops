@@ -29,4 +29,7 @@ TBD
 
 ## Conta da AWS necessária
 Para concluir esses workshops, você precisará de uma conta ativa da AWS válida com permissões de administrador. 
-Se estiver participando de um workshop guiado, irá utilizar plataforma: [Event Engine](https://dashboard.eventengine.run/login) para isto. O arquiteto que está ministrando o Workshop deve lhe passar algum HASH.
+
+- Se estiver participando de um workshop guiado, irá utilizar plataforma: [Event Engine](https://dashboard.eventengine.run/login) para isto. O arquiteto que está ministrando o Workshop deve lhe passar algum HASH.
+
+- Se estiver testando os Workshops por conta própria, deverá [criar uma conta AWS](https://aws.amazon.com/pt/resources/create-account/). Recomenda-se distruir tudo o que for criado ao final dos testes.
