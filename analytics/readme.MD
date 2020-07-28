@@ -152,3 +152,7 @@ Iremos criar um dashboard de exemplo:
 - As configurações são:
 
 ![quick](images/quickconfig.png)
+
+# Parabéns, você concluiu o Workshop de Analytics!! 
+
+### Special thanks to [@angelocarvalho](https://github.com/angelocarvalho) for the Labs! 
