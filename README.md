@@ -24,7 +24,7 @@ TBD
 
 # Workshop Serverless
 
-TBD
+[Serverless - Parte 1 - Criando Funções Lambda com CloudwatchEvents](https://github.com/BRPSNPO/seminars-aws-series-2/blob/master/economizar.MD)
 
 
 ## Conta da AWS necessária
