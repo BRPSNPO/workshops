@@ -87,7 +87,7 @@ Faça o download do site estático no github.
 
 Faça o upload do site estático, altere o <seudominio> -website com o nome do seu bucket.
 
-site estático do `aws s3 cp / s3: // <seudominio> -website / --recursive --exclude ".git / *"`
+site estático do `aws s3 cp static-website/ s3://seubucket --recursive --exclude ".git/*`
 
 2.8 Abra o console do Amazon S3 em https://console.aws.amazon.com/s3/, abra seu bucket do Amazon S3 e você verá os arquivos carregados.
 
